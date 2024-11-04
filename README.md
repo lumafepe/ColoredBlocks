@@ -18,17 +18,17 @@ Deves editar a função `agrupar_jogadores_por_cor` no ficheiro `preencher.py` d
 ## Exemplo 1
 
 Dados de entrada:
-
-Cores dos jogadores: 
+```python
 {
     'Jogador1': ['amarelo', 'vermelho', 'verde', 'turquesa'],
     'Jogador2': ['azul', 'ciano', 'verde', 'vermelho', 'roxo'],
     'Jogador3': ['laranja', 'castanho', 'ciano'], 'Jogador4': ['magenta', 'vermelho', 'rosa', 'roxo'],
     'Jogador5': ['vermelho', 'limão', 'verde'], 'Jogador6': ['ciano', 'azul', 'rosa', 'laranja']
 }
+```
 
 Resposta:
-Cor para jogadores: 
+```python
 {
     'amarelo': {'Jogador1'},
     'vermelho': {'Jogador4', 'Jogador1', 'Jogador5', 'Jogador2'},
@@ -43,4 +43,5 @@ Cor para jogadores:
     'rosa': {'Jogador4', 'Jogador6'},
     'limão': {'Jogador5'}
 }
+```
 
